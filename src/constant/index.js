@@ -340,7 +340,7 @@ export const projects = [
     techStack: ["React Js", "Context Api","Weather Api","Axios",  "Talwind", "Local Storage"],
     image: weather_app,
     created: "Feburary 19,2025",
-    link: "https://todo-app-faizansiddique193.netlify.app",
+    link: "https://atmoslive.netlify.app/",
     description:
       "A clean, user-friendly weather application that displays real-time conditions, hourly forecasts, and essential atmospheric data—including temperature, RealFeel, humidity, and wind speed. Built with React.js and powered by a weather API, it delivers accurate information in a simple, intuitive interface",
   },

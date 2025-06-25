@@ -24,7 +24,7 @@ import website_2 from "../assets/website_2.png";
 import website_3 from "../assets/website_3.png";
 import website_4 from "../assets/website_4.png";
 import weather_app from "../assets/Weather_app.png";
-import uni_img from "../assets/University.png";
+import uni_img from "../assets/university.png";
 import college_img from "../assets/college.jpeg";
 import school_img from "../assets/school.jpeg";
 import ausesImage from "../assets/auses.svg";

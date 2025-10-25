@@ -5,13 +5,14 @@ import resume from "../assets/Resume.pdf";
 import image from "../assets/personal_image.jpg";
 import { ArrowDownToLine } from "lucide-react";
 import { motion } from "framer-motion";
-
+import heroBg from "../assets/image.png";
 const HeroComponent = () => {
   return (
     <section
       id="hero"
       className="relative min-h-screen flex flex-col-reverse sm:flex-row justify-evenly items-center px-4 sm:px-8 pt-32 overflow-hidden backdrop-blur-xl bg-black/30"
     >
+
       {/* Animated Gradient Blobs */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div

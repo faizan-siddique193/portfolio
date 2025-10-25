@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { socialLinks, navbarData } from "../constant/index";
 const Footer = () => {
   return (
@@ -20,17 +21,17 @@ const Footer = () => {
         {/* social links */}
         <ul className="text-white flex gap-x-5">
           {socialLinks.map((value) => (
-            <li
+            <motion.li
               key={value.id}
               className="md:text-lg text-md border rounded-full p-2  hover:text-accent hover:bg-white transition-all duration-200 ease-in-out"
             >
               <a href={value.link}>{<value.icon />}</a>
-            </li>
+            </motion.li>
           ))}
         </ul>
       </div>
-      <p className="text-white bg-black text-center  mt-5 px-2">
-        © 2024 Faizan Siddique. All rights reserved
+      <p className="text-white  text-center  mt-5 px-2">
+        {`© ${new Date().getFullYear()} Faizan Siddique. All rights reserved. `}
       </p>
     </footer>
   );

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { skillsData } from "../constant";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
-import "react-circular-progressbar/dist/styles.css"; // Ensure this import is included
+import "react-circular-progressbar/dist/styles.css"; 
 
 const Skill = () => {
   const [activeSkill, setActiveSkill] = useState(null);

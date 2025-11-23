@@ -29,6 +29,7 @@ import college_img from "../assets/college.jpeg";
 import school_img from "../assets/school.jpeg";
 import ausesImage from "../assets/auses.svg";
 import mlsaImage from "../assets/mlsa.svg";
+import booknest from "../assets/booknest.png";
 // import uni_icon from '../assets/university.ico'
 // import school_icon from '../assets/school.ico'
 // import college_icon from '../assets/college.ico'
@@ -337,11 +338,37 @@ export const projects = [
   },
   {
     title: "Weather App",
-    techStack: ["React Js", "Context Api","Weather Api","Axios",  "Talwind", "Local Storage"],
+    techStack: [
+      "React Js",
+      "Context Api",
+      "Weather Api",
+      "Axios",
+      "Talwind",
+      "Local Storage",
+    ],
     image: weather_app,
     created: "Feburary 19,2025",
     link: "https://atmoslive.netlify.app/",
     description:
       "A clean, user-friendly weather application that displays real-time conditions, hourly forecasts, and essential atmospheric data—including temperature, RealFeel, humidity, and wind speed. Built with React.js and powered by a weather API, it delivers accurate information in a simple, intuitive interface",
+  },
+  {
+    title: "BookNest",
+    techStack: [
+      "React Js",
+      "Redux Toolkit",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Stripe Payment Integration",
+      "Tailwind CSS",
+      "Firebase Authentication",
+      "Axios",
+    ],
+    image: booknest, // make sure you have imported this image variable
+    created: "November 22, 2025",
+    link: "https://book-nest-roan.vercel.app/",
+    description:
+      "BookNest is a full-stack e-commerce store for book lovers. It features user authentication, product browsing, cart and checkout with Stripe payment integration, order management, and a review system. Built with MERN stack and designed for seamless user experience.",
   },
 ];
